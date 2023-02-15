@@ -11,8 +11,8 @@ st.title('Data Exploration App')
 
 st.header('Created by Syed Suhaib')
 
-df = pd.read_csv(r'C:\\Users\\Laptop_Zone\\Desktop\\Data Course\\Python - Last Assignment\\Olympicsdata.csv')
-df1 = pd.read_csv(r'C:\\Users\\Laptop_Zone\\Desktop\\Data Course\\Python - Last Assignment\\noc_regions.csv')
+df = pd.read_csv('Olympicsdata.csv')
+df1 = pd.read_csv('noc_regions.csv')
 
 
 age_mean = df['Age'].mean()
